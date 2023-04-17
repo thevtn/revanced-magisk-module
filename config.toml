@@ -15,5 +15,5 @@ excluded-patches = "debugging microg-support custom-branding"
 included-patches = ""
 version = "auto"
 exclusive-patches = false
-uptodown-dlurl = "https://en.uptodown.com/android"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 module-prop-name = "ytrvx-magisk"
