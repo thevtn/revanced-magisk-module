@@ -15,5 +15,5 @@ excluded-patches = "debugging microg-support custom-branding"
 included-patches = ""
 version = "auto"
 exclusive-patches = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
+uptodown-dlurl = "https://app.en.uptodown.com/android"
 module-prop-name = "ytrvx-magisk"
