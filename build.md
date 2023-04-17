@@ -27,6 +27,4 @@ YouTube Music
 **App Versions:**  
 YouTube: 18.14.41  
 
-Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
-
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
