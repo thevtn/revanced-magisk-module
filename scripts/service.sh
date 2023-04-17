@@ -1,15 +1,16 @@
 #!/system/bin/sh
 # shellcheck disable=SC2086
 MODDIR=${0%/*}
-RVPATH=${NVBASE}/rvhc/__PKGNAME_rv.apk
+MODULES=${MODDIR%/*}
+RVPATH=${MODULES%/*}/rvhc/__PKGNAME_rv.apk
 
 until [ "$(getprop sys.boot_completed)" = 1 ]; do sleep 1; done
 while
 	BASEPATH=$(pm path __PKGNAME)
 	svcl=$?
 	[ $svcl = 20 ]
-do sleep 2; done
-sleep 4
+do sleep 1; done
+sleep 5
 
 err() {
 	[ ! -f $MODDIR/err ] && cp $MODDIR/module.prop $MODDIR/err
@@ -36,7 +37,7 @@ if [ $svcl = 0 ]; then
 				err "mount failed"
 			fi
 		else
-			err "version mismatch (installed:${VERSION}, module:__PKGVER)"
+			err "version mismatch (installed:${VERSION}, module: __PKGVER)"
 		fi
 	else
 		err "invalid installation"
