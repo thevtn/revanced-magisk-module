@@ -17,3 +17,4 @@ version = "auto"
 exclusive-patches = false
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube"
 module-prop-name = "ytrvx-magisk"
+dpi = "nodpi"
