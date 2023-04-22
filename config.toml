@@ -15,6 +15,6 @@ excluded-patches = "debugging microg-support swipe-controls custom-branding"
 included-patches = "force-hide-player-button-background force-premium-heading materialyou hide-double-tap-overlay-filter disable-landscape-mode"
 version = "auto"
 exclusive-patches = false
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 module-prop-name = "ytrvx-magisk"
 
