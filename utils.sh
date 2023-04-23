@@ -378,10 +378,10 @@ build_rv() {
 			pr "Downloading '${app_name}' bundle from APKMirror"
 			if dl_apkmirror "${args[apkmirror_dlurl]}" "$version" "$stock_bundle_apk" BUNDLE "" ""; then
 				if (($(stat -c%s "$stock_apk") - $(stat -c%s "$stock_bundle_apk") > 10000000)); then
-					pr "'${app_name}' bundle was downloaded successfully and will be used for the module"
+					pr "'${app_name}' bundle was downloaded successfully, but will not be used anyway"
 					is_bundle=false
 				else
-					pr "'${app_name}' bundle was downloaded but will not be used"
+					pr "'${app_name}' bundle was downloaded, but will not be used anyway"
 				fi
 			else
 				pr "'${app_name}' bundle was not found"
