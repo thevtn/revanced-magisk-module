@@ -7,9 +7,8 @@
 
 Extensive ReVanced builder  
 
-Get the [latest CI release](https://github.com/j-hc/revanced-magisk-module/releases).
+Get the [latest CI release](https://github.com/thevtn/revanced-magisk-module/releases).
 
-[**mindetach module**](https://github.com/j-hc/mindetach-magisk) in the releases section detaches YouTube and YouTube Music from Play Store and blocks it from updating them.
 
 ## Features
  * Support all present and future ReVanced and [ReVanced Extended](https://github.com/inotia00/revanced-patches) apps
@@ -26,10 +25,10 @@ Get the [latest CI release](https://github.com/j-hc/revanced-magisk-module/relea
 #### **Note that the [CI workflow](../../actions/workflows/ci.yml) is scheduled to build the modules and APKs everyday using GitHub Actions if there is a change in ReVanced patches. You may want to disable it.**
 
 ## To include/exclude patches or patch more ReVanced Apps
-[**See the list of patches**](https://github.com/revanced/revanced-patches#-patches)
+[**See the list of patches**](https://github.com/inotia00/revanced-patches#-patches)
 
  * Star the repo :eyes:
- * [Fork the repo](https://github.com/j-hc/revanced-magisk-module/fork) or use it as a template
+ * [Fork the repo](https://github.com/thevtn/revanced-magisk-module/fork) or use it as a template
  * Customize [`config.toml`](./config.toml)
  * Run the build [workflow](../../actions/workflows/build.yml)
  * Grab your modules and APKs from [releases](../../releases)
@@ -39,14 +38,14 @@ To add more ReVanced apps or build ReVanced Extended `config.toml`, read here [`
 # Building Locally
 ## On Termux
 ```console
-bash <(curl -sSf https://raw.githubusercontent.com/j-hc/revanced-magisk-module/main/build-termux.sh)
+bash <(curl -sSf https://raw.githubusercontent.com/thevtn/revanced-magisk-module/main/build-termux.sh)
 ```
 
 ## On Desktop
 Make sure you have JDK 17 and jq installed. Then run:
 
 ```console
-$ git clone --recurse https://github.com/j-hc/revanced-magisk-module
+$ git clone --recurse https://github.com/thevtn/revanced-magisk-module
 $ cd revanced-magisk-module
 $ ./build.sh
 ```
