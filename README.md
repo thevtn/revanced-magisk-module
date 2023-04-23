@@ -1,6 +1,6 @@
 #### ⚠️ Do not download modules from 3rd party sources like random websites you found on Google. Only use this repository. I am not responsible for anything they may contain.
 
-# ReVanced Magisk Module
+# ReVanced Extended Magisk Module
 
 [![Build RVX](https://github.com/thevtn/revanced-magisk-module/actions/workflows/build.yml/badge.svg)](https://github.com/thevtn/revanced-magisk-module/actions/workflows/build.yml)
 [![CI](https://github.com/thevtn/revanced-magisk-module/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/thevtn/revanced-magisk-module/actions/workflows/ci.yml)
