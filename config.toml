@@ -11,8 +11,8 @@ rv-brand = "ReVanced Extended"
 
 [YouTube]
 build-mode = "module"
-excluded-patches = "debugging microg-support swipe-controls custom-branding"
-included-patches = "force-hide-player-button-background force-premium-heading materialyou hide-double-tap-overlay-filter disable-landscape-mode"
+excluded-patches = "debugging custom-branding-icon-afn-red microg-support swipe-controls custom-branding"
+included-patches = "force-hide-player-button-background force-premium-heading materialyou hide-double-tap-overlay-filter custom-branding-icon-mmt disable-landscape-mode"
 version = "auto"
 exclusive-patches = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
