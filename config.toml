@@ -29,7 +29,7 @@ excluded-patches = "debugging microg-support custom-branding"
 included-patches = "force-hide-player-button-background force-premium-heading hide-double-tap-overlay-filter custom-branding-icon-mmt disable-landscape-mode"
 version = "auto"
 exclusive-patches = false
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 module-prop-name = "ytrvx-magisk"
 
 # extended
@@ -43,5 +43,5 @@ excluded-patches = "debugging microg-support custom-branding"
 included-patches = "force-hide-player-button-background force-premium-heading materialyou hide-double-tap-overlay-filter custom-branding-icon-mmt disable-landscape-mode"
 version = "auto"
 exclusive-patches = false
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 module-prop-name = "ytrvx-magisk"
