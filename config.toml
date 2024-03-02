@@ -2,4 +2,5 @@
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 arch = "arm64-v8a"
 build-mode = "module"
-excluded-patches = "'GmsCore support' 'Enable debugging' 'Swipe controls'"
+included-patches = "'Custom branding'"
+excluded-patches = "'GmsCore support' 'Announcements' 'Enable debugging' 'Swipe controls'"
