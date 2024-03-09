@@ -6,7 +6,7 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouT
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
 
 Changelog:  
-CLI: j-hc/revanced-cli-4.3.0-all.jar  
+CLI: j-hc/revanced-cli-4.4.1-all.jar  
 Integrations: ReVanced/revanced-integrations-1.4.0.apk  
 Patches: ReVanced/revanced-patches-4.3.0.jar  
 [Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v4.3.0)  
