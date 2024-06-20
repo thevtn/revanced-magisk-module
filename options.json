@@ -1,1 +1,26 @@
-[]
+        
+[
+  {
+    "patchName": "Translations for YouTube",
+    "options": [
+      {
+        "key": "SelectedStringResources",
+        "value": "ru"
+      },
+      {
+        "key": "SelectedTranslations",
+        "value": "ru-rRU"
+      }
+    ]
+  },
+  {
+    "patchName": "Settings for YouTube",
+    "options": [
+      {
+        "key": "RVXSettingsMenuName",
+        "value": "Revanced Extended"
+      }
+    ]
+  }
+]
+        
