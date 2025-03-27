@@ -15,5 +15,6 @@ build-mode = "module"
 patches-version = ""
 integrations-version = ""
 version = "19.16.39"
-included-patches = "'MaterialYou'"
-excluded-patches = "'Visual preferences icons for YouTube' 'Custom branding icon for YouTube' 'Alternative thumbnails' 'Swipe controls' 'Custom branding name for YouTube'"
+included-patches = "'MaterialYou' 'Return YouTube Username'"
+excluded-patches = "'Change form factor' 'Change start page' 'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Swipe controls' 'Visual preferences icons for YouTube'"
+
