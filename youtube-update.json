@@ -1,6 +1,6 @@
 {
-  "version": "v19.16.39 (176)",
-  "versionCode": 176,
-  "zipUrl": "https://github.com/thevtn/revanced-magisk-module/releases/download/176/youtube-revanced-extended-magisk-v19.16.39-all.zip",
+  "version": "v19.16.39 (patches 5.8.1)",
+  "versionCode": 177,
+  "zipUrl": "https://github.com/thevtn/revanced-magisk-module/releases/download/177/youtube-inotia00-revanced-magisk-v19.16.39-all.zip",
   "changelog": "https://raw.githubusercontent.com/thevtn/revanced-magisk-module/update/build.md"
 }
