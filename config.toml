@@ -8,12 +8,7 @@ parallel-jobs = 1
 
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-rv-brand = "inotia00 ReVanced"
 build-mode = "module"
-version = "latest"
-included-patches = "'MaterialYou' 'Return YouTube Username'"
-excluded-patches = "'Change form factor' 'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Visual preferences icons for YouTube' 'Swipe controls' 'GmsCore support'"
+excluded-patches = "'Swipe controls' 'Announcements' 'GmsCore support'"
 patches-version = ""
 integrations-version = ""
