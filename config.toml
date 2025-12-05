@@ -10,6 +10,6 @@ parallel-jobs = 1
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 build-mode = "module"
 excluded-patches = "'Swipe controls' 'Announcements' 'GmsCore support'"
-patches-version = ""
+patches-version = "v5.47.0-dev.7"
 integrations-version = ""
 version = "20.25.35"
