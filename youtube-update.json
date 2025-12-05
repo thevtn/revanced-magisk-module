@@ -1,6 +1,6 @@
 {
-  "version": "v20.14.43 (patches 5.46.0)",
-  "versionCode": 192,
-  "zipUrl": "https://github.com/thevtn/revanced-magisk-module/releases/download/192/youtube-revanced-magisk-v20.14.43-all.zip",
+  "version": "v20.25.35 (patches 5.46.0)",
+  "versionCode": 193,
+  "zipUrl": "https://github.com/thevtn/revanced-magisk-module/releases/download/193/youtube-revanced-magisk-v20.25.35-all.zip",
   "changelog": "https://raw.githubusercontent.com/thevtn/revanced-magisk-module/update/build.md"
 }
